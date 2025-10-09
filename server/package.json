@@ -4,6 +4,7 @@
   "description": "Server endpoints to process or create content for chatting",
   "main": "index.js",
   "author": "Timothy Carambat (Mintplex Labs)",
+  "email": "alexsbuchanan@gmail.com",
   "license": "MIT",
   "private": false,
   "engines": {
