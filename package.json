@@ -1,13 +1,13 @@
 {
-  "name": "anything-llm",
-  "version": "1.8.5",
-  "description": "The best solution for turning private documents into a chat bot using off-the-shelf tools and commercially viable AI technologies.",
+  "name": "laminar",
+  "version": "1.0.0-alpha.1",
+  "description": "The solution to guard your clients PII from ever leaving your domain.",
   "main": "./out/main/index.js",
   "type": "module",
   "author": "Alex Buchanan <alexsbuchanan@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.1.0"
   },
   "scripts": {
     "test": "jest",
@@ -38,8 +38,8 @@
     "electron:build:linux": "yarn electron:prebuild && electron-builder --linux"
   },
   "build": {
-    "appId": "com.mintplexlabs.anythingllm",
-    "productName": "AnythingLLM",
+    "appId": "com.laminar",
+    "productName": "Laminar",
     "directories": {
       "output": "dist"
     },
@@ -59,7 +59,7 @@
     "win": {
       "target": [
         {
-          "target": "nsis",
+          "target": "portable",
           "arch": ["x64", "ia32"]
         }
       ],
